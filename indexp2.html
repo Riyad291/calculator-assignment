@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Calculator</title>
+</head>
+<body>
+    <h2>Simple Math Calculator</h2>
+    <form method="POST" action="calculate.php">
+        <label for="input1">Number 1:</label>
+        <input type="text" id="input1" name="input1" required><br><br>
+
+        <label for="operator1">Operator 1:</label>
+        <select id="operator1" name="operator1" required>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br><br>
+
+        <label for="input2">Number 2:</label>
+        <input type="text" id="input2" name="input2" required><br><br>
+
+        <label for="operator2">Operator 2:</label>
+        <select id="operator2" name="operator2" required>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br><br>
+
+        <label for="input3">Number 3:</label>
+        <input type="text" id="input3" name="input3" required><br><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
